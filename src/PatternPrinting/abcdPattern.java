@@ -9,7 +9,7 @@ public class abcdPattern {
             for (int j = 1; j <=n ; j++) {
                 System.out.print((char)(j+64)+" ");
             }
-            System.out.println();
+                System.out.println();
 
         }
     }
