@@ -11,11 +11,11 @@ public class BubbleSort {
                     int temp = arr[j];
                     arr[j] = arr[j+1];
                     arr [j+1] = temp;
-                    swapped = true; // ✅ Swap happened
+                    swapped = true; //  Swap hua hai
                 }
             }
             if (!swapped) {
-                // ❌ No swaps means array is sorted
+                //  No swaps means array is sorted
                 break;
             }
         }
