@@ -7,7 +7,7 @@ public class SelectionSort {
             int min_value = i;
             for (int j = i+1; j < arr.length ; j++) {
                 if (arr[j] < arr[min_value]) {
-                    min_value = j;
+                    min_value = j; //j ka value min dabba me denge
                 }
 
             }
@@ -17,7 +17,7 @@ public class SelectionSort {
         }
     }
     public static void main(String[] args) {
-        int [] arr = {9,8,7,4,5,6,3,2,1};
+        int [] arr = {7,5,4,1,3};
         SelectionSort(arr);
         for (int i = 0; i < arr.length ; i++) {
             System.out.print(arr[i]+" ");
