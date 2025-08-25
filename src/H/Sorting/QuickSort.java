@@ -1,4 +1,4 @@
-package Sorting;
+package H.Sorting;
 
 public class QuickSort {
     static void quicksort(int[] arr,int low, int high){

@@ -1,4 +1,4 @@
-package LearnArrayList;
+package F.LearnArrayList;
 import java.util.ArrayList;
 public class BasicAL {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package LearnArrayList;
+package F.LearnArrayList;
 
 import java.util.ArrayList;
 import java.util.*;
